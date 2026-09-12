@@ -17,7 +17,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
 
   if (!isOpen) return null;
 
-  const onlineUrl = 'https://undian-kba5-makassar.surge.sh';
+  const onlineUrl = 'https://rainypony26.github.io/undian-kba5-makassar/';
   const localUrl = `http://${localIp || '10.39.28.72'}:5173`;
 
   const handleCopy = (url: string, type: 'online' | 'local') => {
